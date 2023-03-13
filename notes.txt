@@ -1,0 +1,1 @@
+light_yellow :yellow-50

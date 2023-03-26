@@ -33,9 +33,9 @@ const HeroSection = () => {
                   width="144"
                   height="133"
                 />
-                <span className="text-2xl font tracking-tighter text-yellow-900 ">
+                <span className="text-2xl font-extrabold tracking-tight text-yellow-600 ">
                   Carry{" "}
-                  <span className="text-yellow-700 ">
+                  <span className="text-yellow-300 ">
                     Minati
                   </span>
                 </span>
@@ -94,11 +94,11 @@ const HeroSection = () => {
         </div>
       </nav>
       <div className="relative bg-gray-900">
-        <div className="container m-auto px-6 pt-32 md:px-12 lg:pt-[4.8rem] lg:px-7">
+        <div className="container m-auto px-6 pt-28 md:px-12 lg:pt-[1.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 md:px-0">
             <div className="relative lg:w-6/12 lg:py-24 xl:py-32">
               <h1 className="font-bold text-4xl  text-yellow-50 md:text-5xl lg:w-10/12">
-                Your favorite dishes, right at your door
+                Connect more  with, Carry Minati.
               </h1>
               <a
                 className="mt-12 group relative inline-block focus:outline-none focus:ring"
@@ -108,22 +108,22 @@ const HeroSection = () => {
 
                 <span
                 onClick={()=>user?navigate('superchat'): alert("Please Signin first!")}
-                 class="relative inline-block border-2 border-current border-yellow-50 px-8 py-3 text-sm font-bold uppercase tracking-widest text-black group-active:text-opacity-75">
+                 className="relative inline-block border-2 border-current border-yellow-50 px-8 py-3 text-sm font-bold uppercase tracking-widest text-black group-active:text-opacity-75">
                   Superchat &#x2192;
                 </span>
               </a>
               <p className="mt-8 text-gray-200 lg:w-10/12 mb-12 md:mb-0">
-                Sit amet consectetur adipisicing elit.{" "}
-                <a href="#" className="text-yellow-700">
-                  connection
-                </a>{" "}
-                tenetur nihil quaerat suscipit, sunt dignissimos.
+                Connect with your favourate influencer.{" "}
+                <spam className="text-yellow-700">
+                  superchat
+                </spam>{" "}
+                and get live audio shoutout from carry on stream.
               </p>
             </div>
             <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
               <img
                 src="./public/carry-big-clip-art.jpeg"
-                className="relative w-full h-auto"
+                className="relative w-full h-auto shadow-xl"
                 alt="food illustration"
                 loading="lazy"
                 width="100"

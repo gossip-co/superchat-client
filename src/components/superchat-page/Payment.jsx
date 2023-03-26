@@ -65,6 +65,7 @@ const Payment = ({ showPaymentModal, shoutoutAmount, shoutoutMessage }) => {
       payment_method_id: paymentMethod.id,
       amount: shoutoutAmount,
       message: shoutoutMessage,
+      user_pfp_url: user.photoURL
     })
       .then((response) => {
         // console.log("Client Secret", response.data.data.client_secret)

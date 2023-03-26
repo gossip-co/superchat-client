@@ -14,7 +14,7 @@ const SuperChatPage = () => {
     <RecentSupporters/>
 
     <footer className='border-t text-center border-gray-800 py-5 '>
-    <span class="text-xs tracking-wide text-gray-400 ">Copyright © Carry Minati <span></span> | All right reserved</span>
+    <span className="text-xs tracking-wide text-gray-400 ">Copyright © Carry Minati <span></span> | All right reserved</span>
     </footer>
 
     </div>

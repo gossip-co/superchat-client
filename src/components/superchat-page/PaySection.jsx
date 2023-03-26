@@ -11,11 +11,10 @@ const PaySection = () => {
   const [showPaymentModal, setShowPaymentModal] = useState(false);
   const [shoutoutAmount, setShoutoutAmount] = useState("");
   const [shoutoutMessage, setShoutoutMessage] = useState("");
-  const {user, changePaymentProcessingStatus} = UserAuth()
+  const {user} = UserAuth()
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    changePaymentProcessingStatus()
     return showPaymentModal
       ? setShowPaymentModal(false)
       : setShowPaymentModal(true);

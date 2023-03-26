@@ -1,3 +1,3 @@
-const baseApi = "http://127.0.0.1:8000"
+const baseApi = "https://superchat-backend-api.azurewebsites.net"
 
 export default baseApi;

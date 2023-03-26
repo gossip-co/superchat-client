@@ -23,7 +23,7 @@ const HeroSection = () => {
             <div className="w-full px-6 flex justify-between lg:w-max md:px-0 z-30">
               <a
                 href="#"
-                aria-label="logo"
+                ariaLabel="logo"
                 className="flex space-x-5 items-center"
               >
                 <img
@@ -36,7 +36,7 @@ const HeroSection = () => {
                 <span className="text-2xl font-extrabold tracking-tight text-yellow-600 ">
                   Carry{" "}
                   <span className="text-yellow-300 ">
-                    Minati
+                    Minati <span className="text-xs font-light text-yellow-700 tracking-tighter">V 0.0.1</span>
                   </span>
                 </span>
               </a>
@@ -122,9 +122,9 @@ const HeroSection = () => {
             </div>
             <div className="ml-auto -mb-24 lg:-mb-56 lg:w-6/12">
               <img
-                src="./public/carry-big-clip-art.jpeg"
+                src="/carry-big-clip-art.jpeg"
                 className="relative w-full h-auto shadow-xl"
-                alt="food illustration"
+                alt="Carry Bg"
                 loading="lazy"
                 width="100"
                 height="450"

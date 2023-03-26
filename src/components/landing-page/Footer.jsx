@@ -7,7 +7,7 @@ const Footer = () => {
 <footer className="w-full border-t-2 border-gray-50 py-5 mt-12">
   <div className="md:px-12 lg:px-28">
     <div className="container m-auto space-y-6 text-gray-600 ">
-      <img src="./public/carry-with-mic.jpeg" alt="logo tailus" className="m-auto w-12 rounded-full " />
+      <img src="/carry-with-mic.jpeg" alt="logo carry" className="m-auto w-12 rounded-full " />
       
       <div className="m-auto flex w-max items-center justify-between space-x-4">
         <button  aria-label="call">

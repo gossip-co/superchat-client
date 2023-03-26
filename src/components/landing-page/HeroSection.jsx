@@ -92,7 +92,7 @@ const HeroSection = () => {
           </div>
         </div>
       </nav>
-      <div className="relative bg-gray-300">
+      <div className="relative bg-gray-900">
         <div className="container m-auto px-6 pt-28 md:px-12 lg:pt-[1.8rem] lg:px-7">
           <div className="flex items-center flex-wrap px-2 md:px-0">
             <div className="relative lg:w-6/12 lg:py-24 xl:py-32">

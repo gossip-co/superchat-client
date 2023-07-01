@@ -5,7 +5,7 @@ import Payment from "./Payment";
 import { UserAuth } from "../../context/AuthContext";
 
 const stripePromise = loadStripe(
-  "pk_test_51LsgyVSGPG8dWfbkHFOtX3h43aIdkkKvPTfTjQfBmAuHkc4qsplWuAxQwyLAtc94foO5DZm2tNJxmWwdGrcibzxH00Dh86YsRL"
+  process.env.STRIPE_CLIENT_TOKEN
 );
 const PaySection = () => {
   const [showPaymentModal, setShowPaymentModal] = useState(false);
